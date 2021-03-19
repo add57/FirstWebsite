@@ -1,0 +1,27 @@
+
+hr {
+	width: 90%;
+	height:4px;
+	background: black;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #f3f3f3ff;
+	line-height: 30px;
+}
+
+html{
+    border: solid;
+}
+
+.index-statement p {
+	color: red;
+}
+
+a {
+	text-decoration: none;
+	color: blue;
+	padding-left: 0.em;
+    padding-right: 0.5em;
+}

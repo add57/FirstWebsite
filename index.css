@@ -1,0 +1,358 @@
+* {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+main {
+    padding-top: 100px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+}
+
+/* header .logo-header {
+    display: block;
+    margin: 0 auto;
+    padding: 20px 0;
+} */
+
+header nav ul {
+    margin: 0 auto;
+    display: block;
+    width: fit-content;
+}
+
+header nav ul li {
+    display: inline-block;
+    float: left;
+    list-style: none;
+    padding: 0 16px;
+}
+
+header nav ul li a {
+    font-family: Playfair Display;
+    font-size: 16px;
+    color: #111;
+    text-transform: uppercase;  
+}
+
+/* header .header-customers {
+    display: none;
+} */
+
+body {
+    font-family:'Playfair Display', serif;
+}
+
+header .logo-header {
+    margin: 10px 0;
+    text-align: center;
+    line-height: 38px;
+    padding: 0px 20px 0 40px;
+    border-right: 3px solid #111;
+    float: left;
+}
+
+header .logo-header img {
+    height: 5rem;
+    width: auto
+}
+
+header nav ul {
+    margin: 20px 0px 0px 0px;
+    float: left;
+}
+
+header nav ul li a {
+    line-height: 60px;
+}
+
+header .header-button {
+    display: block;
+    font-family: Playfair Display;
+    font-size: 16px;
+    color: rgb(8, 8, 8);
+    text-transform: uppercase;
+    line-height: 38px;
+    border: 1px solid rgb(8, 8, 8);
+    float: right;
+    margin-right: 40px;
+    margin-top: 30px;
+    padding: 0 20px;
+}
+
+.banner-index {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url('images/bg1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+
+.virtcal-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.banner-index h3 {
+    font-family: "Playfair Display";
+    font-size: 60px;
+    line-height: 70px;
+    color: antiquewhite;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+}
+
+.banner-index h1 {
+    font-family: "Playfair Display";
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 40px;
+    color: antiquewhite;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 8px #111;
+}
+
+/* .footer-sm a img {
+    background-color: rgb(0, 0, 0);
+} */
+
+/* Main finish */
+
+/* Cards Start */
+
+.cards div {
+    margin: 16px 16px 0;
+    width: calc(100% - 32px);
+    height: 100px;
+    background-color: #787878;
+}
+
+.cards div h3 {
+    font-family: Playfair Display;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 100px;
+    color: #111;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    }
+
+.cards {
+    width: 100%;
+    height: 450px;
+}
+
+.cards h1 {
+    display: block;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.cards div {
+    margin: 10px 10px 0;
+    height: 230px;
+    background-color: #f2f2f2;
+    float: left;
+}
+
+.cards div {
+    overflow: hidden;
+ }
+
+ .index-boxlink-square {
+    width: calc(25% - 20px) !important;
+}
+
+.index-boxlink-rectangle {
+    width: calc(50% - 20px) !important;
+}
+
+.cards div h3 {
+    line-height: 200px;  
+ }
+
+/* Cards End */
+
+/* Footer start */
+
+footer {
+    width: calc(100-80px);
+    padding: 40px 40px;
+    margin-top: 20px;
+    background-color: #111;
+    overflow: hidden;
+}
+
+footer ul {
+    width: fit-content;
+    float: left;
+    padding-left: 20px;
+}
+
+footer ul li {
+    display: block;
+    list-style: none;
+}
+
+footer ul li a {
+    font-family: Playfair Display;
+    font-size: 24px;
+    color: #fff;
+    line-height: 40px;
+}
+
+.footer-sm {
+    width: 50px;
+    float: right;
+}
+
+.footer-sm img {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+/* @media only screen and (min-width: 1000px) {
+    .footer-customers.main {
+    display: block;
+} */
+
+footer ul {
+    padding-right: 30px;
+}
+
+footer ul li p {
+    font-family: Playfair Display;
+    font-size: 24px;
+    color: #fff;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+}
+
+/* Footer end  */
+
+/* About Me Page */
+
+.aboutme {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+
+.aboutme h2 {
+    font-family: Playfair Display;
+    font-size: 28px;
+    font-weight: 300;
+    color: rgb(8, 8, 8);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.aboutme img {
+    margin: 0 auto;
+    display: block;
+    padding: 30px;
+    height: 14rem;
+    width: auto;
+    border-radius: 50%;
+    display: block; 
+}
+
+.aboutme article h3 {
+    font-family: Playfair Display;
+    font-size: 30px;
+    font-weight: 300;
+    color: rgb(8, 8, 8);
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    text-align: center;  
+}
+
+.aboutme article p {
+    font-family: Playfair Display;
+    font-size: 17px;
+    font-weight: 300;
+    color: rgb(8, 8, 8);
+    /* text-transform: uppercase; */
+    column-count: 3;
+    column-gap: 20px;
+    padding-top: 10px
+}
+
+/* About Me Page End */
+
+/* Contact Page */
+
+.contact-page {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-position: center;
+    background-size: cover;
+    display: table;
+    background-image: url(images/aboutbg1.jpg);
+}
+
+.contact-page h2 {
+    font-family: Playfair Display;
+    font-size: 28px;
+    font-weight: 300;
+    color: antiquewhite;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 2px 2px rgb(73, 72, 72); 
+}
+
+.contact-page img {
+    margin: 0 auto;
+    display: block;
+    padding: 30px;
+    height: 14rem;
+    width: auto;
+    border-radius: 50%;
+    display: block; 
+}
+
+.contact-page article h3 {
+    font-family: Playfair Display;
+    font-size: 30px;
+    font-weight: 300;
+    color: antiquewhite;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    text-align: center;
+    text-shadow: 2px 2px rgb(73, 72, 72);  
+}
+
+.contact-page article p {
+    font-family: Playfair Display;
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(5, 5, 5);
+}
+
+.contact-page a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
